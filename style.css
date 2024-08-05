@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+body { font-family: "Assistant", sans-serif;font-size:14px;}
+header {height:105px; background-color:burlywood;}
+.hero {height:200px; background-color:chocolate; color:white;font-size:40px; text-align:center}
+.hero p {padding-top:75px;}
+h1 {font-size:60px; color:white;text-align:center; padding-top:15px;font-family: "Truculenta", sans-serif;}
+
+
+nav { display: flex;margin:25px 0px; background-color:bisque; justify-content: center;}
+
+nav ul {display: flex;  }
+
+
+nav ul li { list-style: none; margin: 15px; }
+
+
+nav ul li a {color:black; font-size:24px; text-decoration:none; }
+nav ul li a:hover { background-color: rgb(233, 149, 89); }
+
+.parent_div { display: flex;  }
+.parent_div div { flex: 1; padding: 10px; }
+.parent_div .extra_room { flex: 3; }
+
+.parent_section { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.parent_section img { flex: 1;margin: 10px;
+}
+
+.tallest {order: 6}
+
+footer {background-color:burlywood;}
+
+
+@media (max-width: 768px) {
+    nav ul { flex-direction: column; }
+    .parent_div { flex-direction: column-reverse; }
+    .parent_div div { flex: none; }
+}
