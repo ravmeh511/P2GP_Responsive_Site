@@ -165,7 +165,7 @@ footer img{
     .nav-links{
         position: absolute;
         background-color: #f44336;
-        height: 10px;
+        height: 20vh;
         width: 200px;
         top:0;
         right:  0;
@@ -263,19 +263,7 @@ footer img{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.hero-btn {
-    background: #ff5a5f;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-.hero-btn:hover {
-    background: #e14b4f;
-}
+
 
 
 
