@@ -17,14 +17,7 @@ nav{
     display: flex;
 
 }
-header{
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('images/hero.jpg' );
-    min-height: 89vh;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
-    position: relative; 
-}
+
 section h1{
     font-size: 6rem;
     text-transform: uppercase;
@@ -308,6 +301,145 @@ text-align:center;
 }
 /* Index End */
 
+/* Services Start */
+.services-hero{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('images/hero-service.jpg' );
+  min-height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+  
+}
+.services-tagline {
+    background-color: #DD9E4D;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1em 0;
+   margin: 0;
+}
+.services-tagline2 {
+    background-color: #DD9E4D;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1em 0;
+   margin: 0;
+}
+.services-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the entire container horizontally */
+  align-items: center; /* Center items vertically within their containers */
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto; /* Center the flex container itself */
+  max-width: 1000px; /* Set a max width for the container */
+}
+
+.services-flex-item {
+  width: 45%;   
+  padding: 20px;
+}
+
+.services-flex-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.services-flex-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.services-flex-item img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+
+
+/* 4box css */
+
+.services-four-item-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.services-our-item-flex-item {
+  width: 22%;
+  background-color: #f9f9f9;
+  padding: 15px;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.services-four-item-flex-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.services-four-item-flex-item img {
+  width: 50px; /* Adjust size of the small image */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.services-four-item-flex-item p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+
+/* Table CSS */
+
+
+
+
+.dynamic_table {
+margin-top: 30px;
+}
+
+table{
+  
+  background: linear-gradient(to right, #25c481, #25b7c4); 
+      width:70%;
+  margin: auto;
+}
+
+#tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+
+}
+
+thead {
+     text-transform: uppercase;
+     font-size: 16px;
+     color: #000;
+     text-align: left; 
+}
+
+  th{
+  padding: 20px 15px;  
+}
+td{
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+/* Services End */
 
 
 /* Index Start */
@@ -316,6 +448,197 @@ text-align:center;
 
 
 
+/* Aboutus Start */
+
+/*------------Mission ------------*/
+.aboutus-hero{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('images/aboutus.jpg' );
+  min-height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+  
+}
+.mission-section {
+    text-align: center;
+    padding: 50px 0;	
+}
+
+.mission-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+	color:#333;
+}
+
+.mission-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mission-card {
+	display:flex; 
+	text-align:center;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #000;
+    position: relative;
+	transition: all 1s;
+}
+.mission-card:hover { 
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.mission-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.mission-card p {
+    font-size: 1.2em;
+    margin: 20px;  
+}
+
+.mission-card .highlight {
+    color: #6366F1; 
+}
+
+.mission-card p, .profile-card h2, .profile-card h3 {
+	transition:color 0.3s;
+}
+
+.mission-card:hover p, .profile-card:hover h2, .profile-card:hover h3 {
+    color: #007bff;
+}
+
+/*----vision -------*/
+
+.vision-container {
+    text-align: left;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+	transition:box-shadow 0.3s;
+}
+
+.vision-container:hover{
+	box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+	display: flex; 
+    align-items: center;
+}
+
+.star {
+    color: #FFC107;
+    margin-right: 10px;
+}
+
+/*-------------------founder---------------------*/
+
+.founders {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.founders h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color:#333;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.profile-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.profile-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.profile-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.profile-card p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.profile-card a {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.profile-card a:hover {
+    background-color: #0056b3;
+}
+
+.section {
+    margin: 20px ;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s , background-color 0.3s;
+}
+
+.section:hover {
+    box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.2);
+	 background-color:white;
+}
+/* Aboutus End */
 
 
 
@@ -323,8 +646,7 @@ text-align:center;
 
 
 
-
-@media (max-width:700px) {
+@media (max-width:768px) {
     .nav-links ul li{
         display: block;
     }
@@ -445,7 +767,7 @@ text-align:center;
     font-weight: 400;
 }
 /*  index page media query End */
-}
+
 
 /* Registration css */
 .register-container {
@@ -468,25 +790,58 @@ text-align:center;
     margin-bottom: 15px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 4px;}
+
+/* services css */
+.services-flex-item {
+    width: 100%;
+}
+
+ .services-flex-item:nth-child(1) {
+    order: 1;
+}
+
+.services-flex-item:nth-child(2) {
+    order: 2;
+}
+
+.services-flex-item:nth-child(3) {
+    order: 4;
+}
+
+.services-flex-item:nth-child(4) {
+    order: 3;
+}
+
+
+/* Services 4box css */
+    .services-four-item-flex-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-four-item-flex-item {
+    width: 100%;
+}
+
+
+/* Services End */
+/* Aboutus Start */
+
+
+.mission-cards, .profile-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission-card, .profile-card {
+    width: 100%;
+    max-width: 300px;
+}
+/* Aboutus End */
+
 }
 
 
 
 
-
-
-@media (max-width: 700px) {
-    .register-container {
-        max-width: 100%;
-        margin: 20px;
-        padding: 10px;
-    }
-    .register-container form input {
-        margin-bottom: 10px;
-        padding: 8px;
-    }
-    .hero-btn {
-        padding: 8px;
-    }
-}
